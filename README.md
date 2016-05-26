@@ -26,8 +26,8 @@ Open `http://localhost:8080` in your browser.
 ### Production
 
 ```bash
-npm run build
-npm start
+$ npm run build
+$ npm start
 ```
 
 This runs a production-ready express server that serves up a bundled and
