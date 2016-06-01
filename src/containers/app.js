@@ -1,19 +1,6 @@
 import React from 'react';
-import { connect } from 'react-redux';
 
-function mapStateToProps(/* state */) {
-  return {
-    // TODO: Add state to be mapped to props
-  };
-}
-
-function mapDispatchToProps(/* dispatch */) {
-  return {
-    // TODO: Add actions to be mapped to props
-  };
-}
-
-class App extends React.Component {
+export class App extends React.Component {
   render() {
     return (
       <div>
@@ -23,7 +10,3 @@ class App extends React.Component {
   }
 }
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(App);
